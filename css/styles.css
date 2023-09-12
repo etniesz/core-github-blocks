@@ -1,0 +1,49 @@
+* {
+	/* border-style: groove; */
+	background-color: rgb(234, 246, 250);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	gap: 20px;
+}
+
+.container > h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: rgb(75, 70, 70);
+}
+
+.first-row {
+	background-color: rgba(0, 174, 255, 0.322);
+	display: flex;
+	justify-content: space-around;
+}
+
+.second-row {
+	background-color: pink;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.third-row {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: space-around;
+}
+
+img {
+	width: 20%;
+	height: auto;
+	margin: 20px;
+}
+
+footer {
+	font-size: small;
+	text-align: center;
+	color: rgb(75, 70, 70);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
